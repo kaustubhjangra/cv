@@ -1,0 +1,62 @@
+body{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)),  url(https://www.yankodesign.com/images/design_news/2020/06/bedroom-designs/07-bedroom-Designs_Natural-Lighting_Berlin-HOuse.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+#title{
+    color: #fff;
+  
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+p{
+    padding: 0 20%;
+    margin-top: 10px;
+}
+.navbar{
+    padding: 0 50px;
+}
+.navbar-nav{
+    padding: 0 20px;
+}
+.nav-item{
+padding: 0 20px;
+
+}
+.nav-item::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.7s;
+}
+
+.nav-item:hover::after{
+    width: 100%;
+
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.main{
+    padding: 10% 20%;
+    text-align: center;
+}
+.title-button{
+padding: 1% 5%;
+color: #fff;
+border-radius: 20px;
+margin: 3% 3% 5% 0;
+cursor: pointer;
+}
